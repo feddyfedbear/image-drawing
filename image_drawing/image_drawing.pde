@@ -3,12 +3,15 @@ int appWidth, appHeight;
 float backgroundImageX, backgroundImageY, backgroundImageWidth, backgroundImageHeight;
 PImage pic;
 //
-size(800, 600); //Landscape
+size(500, 500); //Landscape
 //Copy Display Algorithm
 appWidth = width;
 appHeight = height;
 //
 // Aspect Ratio Calculations 
+//
+int picWidth;
+int picHeight;
 //Population
 pic = loadImage("../Images Used/avatars-QEiZ7zzbWVsjsyZM-hctkTQ-t500x500.jpg");
 backgroundImageX = appWidth*0;
